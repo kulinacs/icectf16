@@ -25,10 +25,12 @@ This means the password is 5 characters long and looks like this,
 
 With this open up a wordlist creator and make a wordlist following the format.
 Using crunch I created a wordlist that was roughly 12 mb.
+
     ./crunch 5 5 -t ,@%%^ -o wordlist.txt
     
 Then once you have your wordlist you can use hashcat to check your wordlist to your hash.
-hashcat -m 1400 hash.hash wordlist.txt -o flag.txt
+
+    hashcat -m 1400 hash.hash wordlist.txt -o flag.txt
 
 ## Flag
 
