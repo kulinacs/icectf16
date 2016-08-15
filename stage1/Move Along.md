@@ -11,8 +11,8 @@ writeup: jtsperry
 ## Solution
 
 Viewing the source code we can see an img tag containing "move_along/nothing-to-see-here.jpg"
-if we check "http://move-along.vuln.icec.tf/move_along/"
-we can see we have access to /move_along and find a jpg and another directory which contains secret.jpg
+If we check "http://move-along.vuln.icec.tf/move_along/"
+we can see we have access to /move_along in here we find nothing-to-see-here.jpg and another directory which contains secret.jpg
 
 ## Flag
 
