@@ -2,6 +2,7 @@
 value: 30
 author: finalC
 writeup: kulinacs
+category: Cryptography
 ---
 
 # Substituted

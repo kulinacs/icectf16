@@ -2,6 +2,7 @@
 value: 1
 author: Glitch
 writeup: kulinacs
+category: Misc
 ---
 
 # Hello World!

@@ -2,6 +2,7 @@
 value: 30
 author: Glitch
 writeup: kulinacs
+category: Web
 ---
 
 # Move Along

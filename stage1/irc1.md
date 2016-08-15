@@ -2,6 +2,7 @@
 value: 35
 author: Glitch
 writeup: kulinacs
+category: Misc
 ---
 
 # IRC I

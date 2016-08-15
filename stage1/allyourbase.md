@@ -2,6 +2,7 @@
 value: 15
 author: finalC
 writeup: kulinacs
+category: Misc
 ---
 
 # All your Base are belong to use

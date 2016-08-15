@@ -2,6 +2,7 @@
 value: 10
 author: Glitch
 writeup: kulinacs
+category: Web
 ---
 
 # Spotlight
