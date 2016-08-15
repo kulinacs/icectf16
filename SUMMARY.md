@@ -14,8 +14,8 @@
 * [Time Traveler](stage1/timetraveler.md)
 * [Scavenger Hunt](stage1/scavengerhunt.md)
 
-
 ### Stage 2
+*[Kitty](stage2/kitty.md)
 
 ### Stage 3
 
