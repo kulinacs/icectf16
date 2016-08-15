@@ -16,6 +16,7 @@
 
 ### Stage 2
 * [Complacent](stage2/complacent.md)
+* [Search](stage2/search.md)
 * [Kitty](stage2/kitty.md)
 
 ### Stage 3
