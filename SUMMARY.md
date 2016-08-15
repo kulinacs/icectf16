@@ -11,6 +11,7 @@
 * [Substituted](stage1/substituted.md)
 * [IRC I](stage1/irc1.md)
 * [Alien Message](stage1/alienmessage.md)
+* [Time Traveler](stage1/timetraveler.md)
 
 ### Stage 2
 
