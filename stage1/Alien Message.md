@@ -11,7 +11,7 @@ We found this [suspicous image](https://play.icec.tf/problem-static/alien_messag
 ## Solution
 
 Here we have a futurama themed symbol substitution cryptogram.
-you can search online for the substitution tables and easily do it, big symbols mean capital letters, small symbols mean lowercase letters
+You can search online for the substitution tables and easily do it. I googled Futurama alien cipher and found a table instantly. Also, BIG symbols mean CAPITAL letters, small symbols mean lowercase letters.
 
 ## Flag
 
