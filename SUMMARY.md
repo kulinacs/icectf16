@@ -10,6 +10,7 @@
 * [Move Along](stage1/movealong.md)
 * [Substituted](stage1/substituted.md)
 * [IRC I](stage1/irc1.md)
+* [Alien Message](stage1/alienmessage.md)
 
 ### Stage 2
 
