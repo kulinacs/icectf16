@@ -15,7 +15,8 @@
 * [Scavenger Hunt](stage1/scavengerhunt.md)
 
 ### Stage 2
-*[Kitty](stage2/kitty.md)
+* [Complacent](stage2/complacent.md)
+* [Kitty](stage2/kitty.md)
 
 ### Stage 3
 
