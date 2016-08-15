@@ -8,7 +8,7 @@
 * [All your Base](stage1/allyourbase.md)
 * [Rotated!](stage1/rotated.md)
 * [Move Along](stage1/movealong.md)
-
+* [Substituted](stage1/substituted.md)
 
 ### Stage 2
 
