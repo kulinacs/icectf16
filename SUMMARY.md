@@ -12,6 +12,8 @@
 * [IRC I](stage1/irc1.md)
 * [Alien Message](stage1/alienmessage.md)
 * [Time Traveler](stage1/timetraveler.md)
+* [Scavenger Hunt](stage1/scavengerhunt.md)
+
 
 ### Stage 2
 
