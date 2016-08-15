@@ -8,18 +8,6 @@ writeup: jtsperry
 
   [This site](http://move-along.vuln.icec.tf/) seems awfully suspicious, do you think you can figure out what they're hiding? 
 
-## File
-
-	<html>
-    <head>
-        <title>IceCTF 2016 - Move Along</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    <body>
-        <img src="move_along/nothing-to-see-here.jpg"></img>
-    </body>
-  </html>
-
 ## Solution
 
 Viewing the source code we can see an img tag containing "move_along/nothing-to-see-here.jpg"
