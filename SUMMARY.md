@@ -9,6 +9,7 @@
 * [Rotated!](stage1/rotated.md)
 * [Move Along](stage1/movealong.md)
 * [Substituted](stage1/substituted.md)
+* [IRC I](stage1/irc1.md)
 
 ### Stage 2
 
