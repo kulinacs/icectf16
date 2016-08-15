@@ -23,7 +23,7 @@ This means the password is 5 characters long and looks like this,
 
     [capital leter][lowercase letter][number 0-9][number 0-9][symbol]
 
-With this open up a wordlist creator and make a wordlist following the format.
+With this information, create a wordlist following the format.
 Using crunch I created a wordlist that was roughly 12 mb.
 
     ./crunch 5 5 -t ,@%%^ -o wordlist.txt
