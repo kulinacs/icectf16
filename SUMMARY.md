@@ -23,6 +23,7 @@
 * [RSA?](stage2/rsa1.md)
 * [Demo](stage2/demo.md)
 * [Thor](stage2/thor.md)
+* [Exposed!](stage2/exposed.md)
 * [RSA](stage2/rsa2.md)
 * [Kitty](stage2/kitty.md)
 
