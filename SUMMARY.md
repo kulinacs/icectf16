@@ -18,6 +18,7 @@
 * [Complacent](stage2/complacent.md)
 * [Search](stage2/search.md)
 * [Plain Sight](stage2/plainsight.md)
+* [Toke](stage2/toke.md)
 * [Flag Storage](stage2/flagstorage.md)
 * [RSA?](stage2/rsa1.md)
 * [Demo](stage2/demo.md)
