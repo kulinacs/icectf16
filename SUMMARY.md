@@ -20,6 +20,7 @@
 * [Plain Sight](stage2/plainsight.md)
 * [Flag Storage](stage2/flagstorage.md)
 * [RSA?](stage2/rsa1.md)
+* [Demo](stage2/demo.md)
 * [Kitty](stage2/kitty.md)
 
 ### Stage 3
