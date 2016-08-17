@@ -17,6 +17,7 @@
 ### Stage 2
 * [Complacent](stage2/complacent.md)
 * [Search](stage2/search.md)
+* [Plain Sight](stage2/plainsight.md)
 * [Kitty](stage2/kitty.md)
 
 ### Stage 3
