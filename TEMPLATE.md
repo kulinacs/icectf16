@@ -14,4 +14,3 @@ category: problem_category
 ## Solution
 
 ## Flag
-

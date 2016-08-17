@@ -18,6 +18,8 @@
 * [Complacent](stage2/complacent.md)
 * [Search](stage2/search.md)
 * [Plain Sight](stage2/plainsight.md)
+* [Flag Storage](stage2/flagstorage.md)
+* [RSA?](stage2/rsa1.md)
 * [Kitty](stage2/kitty.md)
 
 ### Stage 3
