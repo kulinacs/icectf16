@@ -1,0 +1,533 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <title>RSA? · IceCTF 2016 Writeup</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="demo.html" />
+    
+    
+    <link rel="prev" href="flagstorage.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 1</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../stage1/helloworld.html">
+            
+                <a href="../stage1/helloworld.html">
+            
+                    
+                    Hello World!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../stage1/spotlight.html">
+            
+                <a href="../stage1/spotlight.html">
+            
+                    
+                    Spotlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../stage1/allyourbase.html">
+            
+                <a href="../stage1/allyourbase.html">
+            
+                    
+                    All your Base
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../stage1/rotated.html">
+            
+                <a href="../stage1/rotated.html">
+            
+                    
+                    Rotated!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../stage1/movealong.html">
+            
+                <a href="../stage1/movealong.html">
+            
+                    
+                    Move Along
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../stage1/substituted.html">
+            
+                <a href="../stage1/substituted.html">
+            
+                    
+                    Substituted
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../stage1/irc1.html">
+            
+                <a href="../stage1/irc1.html">
+            
+                    
+                    IRC I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../stage1/alienmessage.html">
+            
+                <a href="../stage1/alienmessage.html">
+            
+                    
+                    Alien Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../stage1/timetraveler.html">
+            
+                <a href="../stage1/timetraveler.html">
+            
+                    
+                    Time Traveler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../stage1/scavengerhunt.html">
+            
+                <a href="../stage1/scavengerhunt.html">
+            
+                    
+                    Scavenger Hunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 2</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="complacent.html">
+            
+                <a href="complacent.html">
+            
+                    
+                    Complacent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="search.html">
+            
+                <a href="search.html">
+            
+                    
+                    Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="plainsight.html">
+            
+                <a href="plainsight.html">
+            
+                    
+                    Plain Sight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="toke.html">
+            
+                <a href="toke.html">
+            
+                    
+                    Toke
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="flagstorage.html">
+            
+                <a href="flagstorage.html">
+            
+                    
+                    Flag Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.6" data-path="rsa1.html">
+            
+                <a href="rsa1.html">
+            
+                    
+                    RSA?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="demo.html">
+            
+                <a href="demo.html">
+            
+                    
+                    Demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="thor.html">
+            
+                <a href="thor.html">
+            
+                    
+                    Thor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="exposed.html">
+            
+                <a href="exposed.html">
+            
+                    
+                    Exposed!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="rsa2.html">
+            
+                <a href="rsa2.html">
+            
+                    
+                    RSA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="kitty.html">
+            
+                <a href="kitty.html">
+            
+                    
+                    Kitty
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 3</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Stage 4</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >RSA?</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="rsa">RSA?</h1><p>John was messing with RSA again... he encrypted our flag! I have a strong feeling he had no idea what he was doing however, can you get the flag for us? <a href="https://play.icec.tf/problem-static/flag_4c1049d07cfe1ea989e7fd8e3ff790aa58867989430ae7956b68ecf4f66432f2.txt" target="_blank">flag.txt</a></p><h2 id="file">File</h2><pre><code>N=0x180be86dc898a3c3a710e52b31de460f8f350610bf63e6b2203c08fddad44601d96eb454a34dab7684589bc32b19eb27cffff8c07179e349ddb62898ae896f8c681796052ae1598bd41f35491175c9b60ae2260d0d4ebac05b4b6f2677a7609c2fe6194fe7b63841cec632e3a2f55d0cb09df08eacea34394ad473577dea5131552b0b30efac31c59087bfe603d2b13bed7d14967bfd489157aa01b14b4e1bd08d9b92ec0c319aeb8fedd535c56770aac95247d116d59cae2f99c3b51f43093fd39c10f93830c1ece75ee37e5fcdc5b174052eccadcadeda2f1b3a4a87184041d5c1a6a0b2eeaa3c3a1227bc27e130e67ac397b375ffe7c873e9b1c649812edcd
+e=0x1
+c=0x4963654354467b66616c6c735f61706172745f736f5f656173696c795f616e645f7265617373656d626c65645f736f5f63727564656c797d</code></pre>
+<h2 id="solution">Solution</h2><p>RSA uses <code>c = m^e (mod N)</code> to encrypt data. As the <code>e = 1</code>, and <code>c &lt; N</code>, <code>m = c</code>. Convert the hex from <code>c</code> to ASCII to get the message.</p><h2 id="flag">Flag</h2><p>IceCTF{falls_apart_so_easily_and_reassembled_so_crudely}</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="flagstorage.html" class="navigation navigation-prev " aria-label="Previous page: Flag Storage">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="demo.html" class="navigation navigation-next " aria-label="Next page: Demo">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"value":50,"author":"finalC","writeup":"kulinacs","category":"Cryptography","title":"RSA?","level":"3.6","depth":1,"next":{"title":"Demo","level":"3.7","depth":1,"path":"stage2/demo.md","ref":"stage2/demo.md","articles":[]},"previous":{"title":"Flag Storage","level":"3.5","depth":1,"path":"stage2/flagstorage.md","ref":"stage2/flagstorage.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IceCTF 2016 Writeup","language":"en","gitbook":"*","description":"Write-ups for IceCTF 2016"},"file":{"path":"stage2/rsa1.md","mtime":"2016-08-17T07:13:19.181Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-29T01:51:26.638Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

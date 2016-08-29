@@ -1,0 +1,531 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <title>IRC I · IceCTF 2016 Writeup</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="alienmessage.html" />
+    
+    
+    <link rel="prev" href="substituted.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 1</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="helloworld.html">
+            
+                <a href="helloworld.html">
+            
+                    
+                    Hello World!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="spotlight.html">
+            
+                <a href="spotlight.html">
+            
+                    
+                    Spotlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="allyourbase.html">
+            
+                <a href="allyourbase.html">
+            
+                    
+                    All your Base
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="rotated.html">
+            
+                <a href="rotated.html">
+            
+                    
+                    Rotated!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="movealong.html">
+            
+                <a href="movealong.html">
+            
+                    
+                    Move Along
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="substituted.html">
+            
+                <a href="substituted.html">
+            
+                    
+                    Substituted
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.7" data-path="irc1.html">
+            
+                <a href="irc1.html">
+            
+                    
+                    IRC I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="alienmessage.html">
+            
+                <a href="alienmessage.html">
+            
+                    
+                    Alien Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="timetraveler.html">
+            
+                <a href="timetraveler.html">
+            
+                    
+                    Time Traveler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="scavengerhunt.html">
+            
+                <a href="scavengerhunt.html">
+            
+                    
+                    Scavenger Hunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 2</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../stage2/complacent.html">
+            
+                <a href="../stage2/complacent.html">
+            
+                    
+                    Complacent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../stage2/search.html">
+            
+                <a href="../stage2/search.html">
+            
+                    
+                    Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../stage2/plainsight.html">
+            
+                <a href="../stage2/plainsight.html">
+            
+                    
+                    Plain Sight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../stage2/toke.html">
+            
+                <a href="../stage2/toke.html">
+            
+                    
+                    Toke
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../stage2/flagstorage.html">
+            
+                <a href="../stage2/flagstorage.html">
+            
+                    
+                    Flag Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../stage2/rsa1.html">
+            
+                <a href="../stage2/rsa1.html">
+            
+                    
+                    RSA?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../stage2/demo.html">
+            
+                <a href="../stage2/demo.html">
+            
+                    
+                    Demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../stage2/thor.html">
+            
+                <a href="../stage2/thor.html">
+            
+                    
+                    Thor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../stage2/exposed.html">
+            
+                <a href="../stage2/exposed.html">
+            
+                    
+                    Exposed!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="../stage2/rsa2.html">
+            
+                <a href="../stage2/rsa2.html">
+            
+                    
+                    RSA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="../stage2/kitty.html">
+            
+                <a href="../stage2/kitty.html">
+            
+                    
+                    Kitty
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage 3</li>
+        
+        
+    
+
+    
+        
+        <li class="header">Stage 4</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >IRC I</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="irc-i">IRC I</h1><p>There is someone sharing flags on our IRC server, can you find him and stop him? glitch.is:6667</p><h2 id="solution">Solution</h2><p>Log on to the specified IRC server and list the available channels with <code>/list</code>. One of the channels listed is:</p><pre><code>#6470e394cb_flagshare(2): [+nt] Get your flags here! while they&apos;re hot! IceCTF{pL3AsE_D0n7_5h4re_fL495_JUsT_doNT}</code></pre>
+<h2 id="flag">Flag</h2><p>IceCTF{pL3AsE_D0n7_5h4re_fL495_JUsT_doNT}</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="substituted.html" class="navigation navigation-prev " aria-label="Previous page: Substituted">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="alienmessage.html" class="navigation navigation-next " aria-label="Next page: Alien Message">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"value":35,"author":"Glitch","writeup":"kulinacs","category":"Misc","title":"IRC I","level":"2.7","depth":1,"next":{"title":"Alien Message","level":"2.8","depth":1,"path":"stage1/alienmessage.md","ref":"stage1/alienmessage.md","articles":[]},"previous":{"title":"Substituted","level":"2.6","depth":1,"path":"stage1/substituted.md","ref":"stage1/substituted.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IceCTF 2016 Writeup","language":"en","gitbook":"*","description":"Write-ups for IceCTF 2016"},"file":{"path":"stage1/irc1.md","mtime":"2016-08-15T06:18:29.618Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-29T01:51:26.638Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
